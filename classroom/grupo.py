@@ -29,11 +29,11 @@ class Grupo:
         cls.grado = nombre
 
     @ classmethod
-    def asignarNombre(cls, nombre="Grado 6"):
+    def asignarNombre(cls, nombre="Grado 4"):
         cls.grado = nombre
 
     @ classmethod
-    def asignarNombre(cls, nombre="Grado 4"):
+    def asignarNombre(cls, nombre="Grado 6"):
         cls.grado = nombre
 
     def __str__(self):
