@@ -24,15 +24,15 @@ class Grupo:
         else:
             self.listadoAlumnos = [alumno]
 
-    @classmethod
+    @ classmethod
     def asignarNombre(cls, nombre="Grado 10"):
         cls.grado = nombre
 
-    @classmethod
+    @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
         cls.grado = nombre
 
-    @classmethod
+    @ classmethod
     def asignarNombre(cls, nombre="Grado 4"):
         cls.grado = nombre
 
